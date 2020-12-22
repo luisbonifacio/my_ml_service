@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework', # add django rest framework
-    'apps.endpoints' # add apps
+    #apps:
+    'apps.endpoints', # add endpoints
+    'apps.ml' #add ml
 ]
 
 MIDDLEWARE = [
